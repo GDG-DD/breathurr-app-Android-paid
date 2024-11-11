@@ -1,4 +1,4 @@
-:8080 {
+:80 {
   file_server
   root * /var/www/html
 

@@ -224,3 +224,20 @@
     margin-bottom: 16px;
   }
 }
+
+.desc strong {
+  font-weight: 600; /* Adjust the number to make it bolder */
+  text-decoration: underline;
+}
+
+:root {
+  --border-color: var(
+    --color-neutral-200
+  ); /* Define the border color variable */
+}
+
+.thin-line {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px dotted var(--border-color);
+}

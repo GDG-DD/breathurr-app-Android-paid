@@ -8,12 +8,11 @@ interface Props {
 }
 
 const title = Astro.props.title
-  ? `${Astro.props.title} — Calmness`
-  : 'Calmness: Online Breathing Exercises Tool';
+  ? `${Astro.props.title} — Breathurr`
+  : 'Breathurr';
 
 const description =
-  Astro.props.description ||
-  'A simple and minimal breathing exercises tool in your browser.';
+  Astro.props.description || 'Breathing Exercises for the Complex ADHD mind';
 
 const og = Astro.props.og || '/og.png';
 ---
@@ -33,10 +32,13 @@ const og = Astro.props.og || '/og.png';
 
     <meta content={title} property="og:title" />
     <meta content={description} property="og:description" />
-    <meta content="Calmness" property="og:site_name" />
-    <meta content="https://calmness.mvze.net/" property="og:url" />
+    <meta content="Breathurr" property="og:site_name" />
+    <meta content="https://breathurr.murmurs.stream/" property="og:url" />
     <meta content="website" property="og:type" />
-    <meta content={`https://calmness.mvze.net${og}`} property="og:image" />
+    <meta
+      content={`https://breathurr.murmurs.stream${og}`}
+      property="og:image"
+    />
 
     <link href="/sitemap-index.xml" rel="sitemap" />
   </head>
