@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for breathurr-app on 2024-11-11T20:34:54+08:00
+# fly.toml app configuration file generated for breathurr-app-ios-paid on 2024-12-12T23:03:46+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'breathurr-app'
+app = 'breathurr-app-ios-paid'
 primary_region = 'sin'
 
 [build]

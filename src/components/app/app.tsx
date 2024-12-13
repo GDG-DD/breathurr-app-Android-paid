@@ -52,37 +52,32 @@ const PHASE_LABELS: Record<Phase, string> = {
 const DESC: Record<Exercise, string> = {
   '4-7-8 Breathing': `<br><br>Inhale for 4 seconds, hold the breath for 7 seconds, and exhale for 8 seconds.<br>
     <hr style="border: none; border-top: 1px dotted var(--border-color); margin: 10px 0 20px;">
-    The 4-7-8 breathing technique is a form of pranayama, which is the practice of breath regulation in yoga. It requires a person to focus on taking long, deep breaths in and out.<br><br>
-    This breathing pattern aims to reduce anxiety and soothes nerves prior to sleep.`,
+    The 4-7-8 breathing technique is a form of pranayama, which is the practice of breath regulation in yoga. It requires a person to focus on taking long, deep breaths in and out.`,
 
   Custom: ' Create your own custom breathing exercise.',
 
   'Diaphragmatic Breathing': `<br><br>Inhale deeply, expanding the diaphragm, for 4 seconds, and exhale for 6 seconds.<br>
     <hr style="border: none; border-top: 1px dotted var(--border-color); margin: 10px 0 20px;">
-    Practicing relaxed, diaphragmatic breathing is refreshing and restful, and creates a sense of well-being.<br><br>
-    It calms the nervous system and centers attention in the ADHD mind.`,
+    Practicing relaxed, diaphragmatic breathing is refreshing and restful, and creates a sense of well-being.`,
 
   'Nadī Shodhana': `<br><br>Inhale through the left nostril for 3 seconds, exhale through the right nostril for 3 seconds, and repeat.<br>
     <hr style="border: none; border-top: 1px dotted var(--border-color); margin: 10px 0 20px;">
-    Sometimes called channel-clearing breath, alternate nostril breathing, known in Sanskrit as Nadī Shodhana, has historically been said to clear energy blockages and bring about inner balance.
+    Sometimes called channel-clearing breath, alternate nostril breathing, known in Sanskrit as Nadī Shodhana.
     <br><br>Isolate each nostril, breathing in through only one of them at a time and then exhaling through the other.`,
 
   'Pursed Lip Breathing': `<br><br>Inhale through the nose for 2 seconds with mouth closed, exhale slowly through pursed lips(like kissing, let your cheeks inflate as you exhale for 4 seconds.<br>
     <hr style="border: none; border-top: 1px dotted var(--border-color); margin: 10px 0 20px;">
-    Pursed Lip Breathing is a slow breathing technique that enables a person to be aware and control how much air enters and leaves their lungs<br><br>
-    It is beneficial for reducing anxiety and increasing relaxation.`,
+    Pursed Lip Breathing is a slow breathing technique that enables a person to be aware and control how much air enters and leaves their lungs.`,
 
   'Samavritti Advanced': `<br><br>Inhale for 6 seconds, hold for 6 seconds, exhale for 6 seconds, and hold again for 6 seconds.<br>
     <hr style="border: none; border-top: 1px dotted var(--border-color); margin: 10px 0 20px;">
-    Samavritti, or equal breath, is a pranayama practice that balances inhalation, internal retention, exhalation, and external retention. 
-    It enhances breath awareness, calms the body, and sharpens focus for meditation.<br><br>
+    Samavritti, or equal breath, is a pranayama practice that balances inhalation, internal retention, exhalation, and external retention.
     Try to cultivate the same quality of breath at the beginning, middle, and end of the count. 
     The breath should not be forced or strained.`,
 
   'Samavritti Basic': `<br><br>Breathe in and out evenly, usually around 4 seconds per breathe.<br>
     <hr style="border: none; border-top: 1px dotted var(--border-color); margin: 10px 0 20px;">
     Samavritti, or equal breath, is a pranayama practice that balances inhalation, internal retention, exhalation, and external retention. 
-    It enhances breath awareness, calms the body, and sharpens focus for meditation.
     <br><br>In this basic version of Samavritti, there is no need to hold the breath.`,
 };
 
